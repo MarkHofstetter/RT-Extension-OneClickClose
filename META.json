@@ -48,7 +48,7 @@
          "web" : "https://github.com/MarkHofstetter/RT-Extension-OneClickClose"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Mark Hofstetter <mark@univie.ac.at>"
    ]
