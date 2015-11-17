@@ -6,18 +6,17 @@ our $VERSION = '0.01';
 
 =head1 NAME
 
-RT-Extension-OneClickClose - [One line description of module's purpose here]
+RT-Extension-OneClickClose - sets status of a given Ticket to resolved and returns to the previous Search/Results page
 
 =head1 DESCRIPTION
 
-[Why would someone install this extension? What does it do? What problem
-does it solve?]
+Sometimes it is cumbersome to go through several pages and to close a ticket, OnClickClose resolves a ticket and returns 
+to the previous Search Page
 
 =head1 RT VERSION
 
-Works with RT [What versions of RT is this known to work with?]
+Works with RT 4.2
 
-[Make sure to use requires_rt and rt_too_new in Makefile.PL]
 
 =head1 INSTALLATION
 
@@ -53,17 +52,13 @@ or add C<RT::Extension::OneClickClose> to your existing C<@Plugins> line.
 
 =head1 AUTHOR
 
-Best Practical Solutions, LLC E<lt>modules@bestpractical.comE<gt>
+Mark Hofstertter University of Vienna  E<lt>mark.hofstetter@univie.ac.atE<gt>
 
 =head1 BUGS
 
-All bugs should be reported via email to
+All bugs should be reported via web to
 
-    L<bug-RT-Extension-OneClickClose@rt.cpan.org|mailto:bug-RT-Extension-OneClickClose@rt.cpan.org>
-
-or via the web at
-
-    L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-OneClickClose>.
+    L<https://github.com/MarkHofstetter/RT-Extension-OneClickClose/issues>.
 
 =head1 LICENSE AND COPYRIGHT
 
