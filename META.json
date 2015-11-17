@@ -1,7 +1,7 @@
 {
    "abstract" : "An Extension to Best Practical Request Tracker (https://www.bestpractical.com/rt/) to return to a defined a url after a status change",
    "author" : [
-      "Best Practical Solutions, LLC <modules@bestpractical.com>"
+      "Mark Hofstertter University of Vienna  <mark.hofstetter@univie.ac.at>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Zilla version 5.025, Dist::Milla version v1.0.8, CPAN::Meta::Converter version 2.143240",

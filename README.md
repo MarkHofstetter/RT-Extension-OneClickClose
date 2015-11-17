@@ -1,17 +1,15 @@
 # NAME
 
-RT-Extension-OneClickClose - \[One line description of module's purpose here\]
+RT-Extension-OneClickClose - sets status of a given Ticket to resolved and returns to the previous Search/Results page
 
 # DESCRIPTION
 
-\[Why would someone install this extension? What does it do? What problem
-does it solve?\]
+Sometimes it is cumbersome to go through several pages and to close a ticket, OnClickClose resolves a ticket and returns 
+to the previous Search Page. Just add AfterSubmit=1 to the "Close" Link
 
 # RT VERSION
 
-Works with RT \[What versions of RT is this known to work with?\]
-
-\[Make sure to use requires\_rt and rt\_too\_new in Makefile.PL\]
+Works with RT 4.2
 
 # INSTALLATION
 
@@ -33,6 +31,10 @@ Works with RT \[What versions of RT is this known to work with?\]
 
     or add `RT::Extension::OneClickClose` to your existing `@Plugins` line.
 
+    to use it use an URL like this
+
+    '<B><A HREF="\_\_WebPath\_\_/Ticket/Update.html?Status=resolved&SubmitTicket=1&id=\_\_id\_\_&AfterSubmitReturn=1">OneClickClose</a></B>/TITLE:OneClickClose'
+
 - Clear your mason cache
 
         rm -rf /opt/rt4/var/mason_data/obj
@@ -41,17 +43,13 @@ Works with RT \[What versions of RT is this known to work with?\]
 
 # AUTHOR
 
-Best Practical Solutions, LLC <modules@bestpractical.com>
+Mark Hofstertter University of Vienna  <mark.hofstetter@univie.ac.at>
 
 # BUGS
 
-All bugs should be reported via email to
+All bugs should be reported via web to
 
-    L<bug-RT-Extension-OneClickClose@rt.cpan.org|mailto:bug-RT-Extension-OneClickClose@rt.cpan.org>
-
-or via the web at
-
-    L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-OneClickClose>.
+    L<https://github.com/MarkHofstetter/RT-Extension-OneClickClose/issues>.
 
 # LICENSE AND COPYRIGHT
 

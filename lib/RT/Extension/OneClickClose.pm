@@ -11,7 +11,7 @@ RT-Extension-OneClickClose - sets status of a given Ticket to resolved and retur
 =head1 DESCRIPTION
 
 Sometimes it is cumbersome to go through several pages and to close a ticket, OnClickClose resolves a ticket and returns 
-to the previous Search Page
+to the previous Search Page. Just add AfterSubmit=1 to the "Close" Link
 
 =head1 RT VERSION
 
@@ -41,6 +41,10 @@ For RT 4.0, add this line:
     Set(@Plugins, qw(RT::Extension::OneClickClose));
 
 or add C<RT::Extension::OneClickClose> to your existing C<@Plugins> line.
+
+to use it use an URL like this
+
+'<B><A HREF="__WebPath__/Ticket/Update.html?Status=resolved&SubmitTicket=1&id=__id__&AfterSubmitReturn=1">OneClickClose</a></B>/TITLE:OneClickClose'
 
 =item Clear your mason cache
 
