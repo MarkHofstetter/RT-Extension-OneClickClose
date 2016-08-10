@@ -6,11 +6,13 @@ our $VERSION = '0.02';
 
 =head1 NAME
 
-RT-Extension-OneClickClose - sets status of a given Ticket to resolved and returns to the previous Search/Results page
+RT-Extension-OneClickClose - sets status of a given Ticket to
+resolved and returns to the previous Search/Results page
 
 =head1 DESCRIPTION
 
-Sometimes it is cumbersome to go through several pages and to close a ticket, OnClickClose resolves a ticket and returns 
+Sometimes it is cumbersome to go through several pages and to close a ticket,
+OnClickClose resolves a ticket and returns
 to the previous Search Page. Just add AfterSubmit=1 to the "Close" Link
 
 =head1 RT VERSION
@@ -56,7 +58,7 @@ to use it use an URL like this
 
 =head1 AUTHOR
 
-Mark Hofstertter University of Vienna  E<lt>mark.hofstetter@univie.ac.atE<gt>
+Mark Hofstetter University of Vienna  E<lt>mark.hofstetter@univie.ac.atE<gt>
 
 =head1 BUGS
 
