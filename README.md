@@ -1,11 +1,13 @@
 # NAME
 
-RT-Extension-OneClickClose - sets status of a given Ticket to resolved and returns to the previous Search/Results page
+RT-Extension-OneClickClose - sets status of a given Ticket to resolved
+and returns to the previous Search/Results page
 
 # DESCRIPTION
 
-Sometimes it is cumbersome to go through several pages and to close a ticket, OnClickClose resolves a ticket and returns 
-to the previous Search Page. Just add AfterSubmit=1 to the "Close" Link
+Sometimes it is cumbersome to go through several pages and to close
+a ticket, OneClickClose resolves a ticket and returns to the previous
+Search Page. Just add AfterSubmit=1 to the "Close" Link
 
 # RT VERSION
 
@@ -43,7 +45,7 @@ Works with RT 4.2
 
 # AUTHOR
 
-Mark Hofstertter University of Vienna  <mark.hofstetter@univie.ac.at>
+Mark Hofstetter University of Vienna  <mark.hofstetter@univie.ac.at>
 
 # BUGS
 
