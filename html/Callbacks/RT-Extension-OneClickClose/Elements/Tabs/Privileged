@@ -1,0 +1,17 @@
+<%ARGS>
+$Path => undef
+</%ARGS>
+
+<%INIT>
+if ( $Path =~ m!^\/Ticket\/Display\.html! ) {
+    if ( $DECODED_ARGS->{id} && $DECODED_ARGS->{id} =~ m/\d+/ ) {
+        my $ticket_id = $DECODED_ARGS->{id};
+        my $actions   = PageMenu()->child( 'actions' );
+        $actions->child(
+            'OneClickClose',
+            title => 'OneClickClose',
+            path => "/Ticket/Update.html?Status=resolved&SubmitTicket=1&id=$ticket_id&AfterSubmitReturn=1",
+        );
+    }
+}
+</%INIT>
